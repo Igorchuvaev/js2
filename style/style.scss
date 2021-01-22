@@ -1,0 +1,14 @@
+.product-item {
+  float: left;
+  margin: 20px;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn-cart {
+  float: right;
+  margin-right: 70px;
+  margin-top: 50px;
+}

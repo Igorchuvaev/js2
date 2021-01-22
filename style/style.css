@@ -1,0 +1,23 @@
+.product-item {
+  float: left;
+  margin: 20px;
+  width: 200px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-cart {
+  float: right;
+  margin-right: 70px;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */
