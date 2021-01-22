@@ -1,14 +1,39 @@
+body {
+  margin-top: 50px;
+}
 .product-item {
   float: left;
-  margin: 20px;
-  width: 200px;
-  height: 150px;
+  margin-left: 30px;
+  width: 110px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  img {
+    margin: 0 auto;
+  }
+  button {
+    width: 77px;
+    height: 50px;
+    float: initial;
+    cursor: pointer;
+    margin-bottom: 2px;
+    border-radius: 5px;
+  }
+}
+.product-item:hover {
+  box-shadow: 4px 2px 5px 2px grey;
+  border-radius: 5px;
 }
 .btn-cart {
   float: right;
   margin-right: 70px;
-  margin-top: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 2px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+.btn-cart:hover {
+  background-color: wheat;
 }
