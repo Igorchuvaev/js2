@@ -1,0 +1,67 @@
+header {
+  overflow: hidden;
+  border-bottom: 0.5px solid grey;
+  margin-bottom: 10px;
+}
+.containerHead {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.productsPrice {
+  margin-right: 50px;
+  font-weight: 700;
+}
+.productsList {
+  display: flex;
+  @media (max-width: 662px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-self: center;
+  }
+}
+.product-item {
+  float: left;
+  text-align: center;
+  margin-left: 30px;
+  width: 115px;
+  height: 375px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin: 0 auto;
+  }
+  button {
+    width: 77px;
+    height: 50px;
+    float: initial;
+    cursor: pointer;
+    margin-bottom: 2px;
+    border-radius: 5px;
+  }
+}
+
+.product-item:hover {
+  box-shadow: 4px 2px 5px 2px grey;
+  border-radius: 5px;
+}
+.busketHead {
+  float: right;
+  margin-right: 70px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40%;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+}
+.busketHead:hover {
+  border: none;
+  cursor: pointer;
+  background-color: darkgray;
+  box-shadow: 1px 1px 2px 2px grey;
+}
