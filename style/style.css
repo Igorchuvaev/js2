@@ -1,0 +1,29 @@
+body {
+  margin: 30px auto;
+  width: 900px;
+}
+
+@media (max-width: 899px) {
+  body {
+    width: auto;
+  }
+}
+
+.textExample {
+  background-color: #DCDCDC;
+  border: 1px solid grey;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 900px;
+  height: 200px;
+}
+
+@media (max-width: 899px) {
+  textarea {
+    width: 300px;
+    height: 100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+body {
+  margin: 30px auto;
+  width: 900px;
+  @media (max-width: 899px) {
+    width: auto;
+  }
+}
+.textExample {
+  background-color: #DCDCDC;
+  border: 1px solid grey;
+  margin-bottom: 30px;
+}
+textarea {
+  width: 900px;
+  height: 200px;
+  @media (max-width: 899px) {
+    width: 300px;
+    height: 100px;
+  }
+}
